@@ -14,6 +14,7 @@ function gamePlay() {
       var i;
       var validate = true;
       var un = [];
+      var audio = new Audio('Recording.m4a');
 
       final = document.getElementById("score");
       incorrect = document.getElementById("incorrect");
@@ -114,6 +115,7 @@ function gamePlay() {
 
         if(correct == totalQuestions) {
           final.innerHTML = ("Congratulations! You got all of the questions correct!");
+          audio.play();
         } else {
           final.innerHTML = ("Correct: " + correct);
           check();
