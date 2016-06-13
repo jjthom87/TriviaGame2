@@ -63,6 +63,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: black;
 }
 #submit{
     border:4px solid;
@@ -107,4 +108,16 @@ a {
 .finished {
     font-size: 30px;
     margin-top: 34px;
+}
+#start:hover {
+    background-color: black;
+}
+#submit:hover {
+    background-color: black;
+}
+#reset:hover {
+    background-color: black;
+}
+a:hover {
+    color: white;
 }
