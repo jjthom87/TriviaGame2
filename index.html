@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+    <title>Trivia Game</title>
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="assets/javascript/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  </head>
+  <body>
+  <header>
+  </header>
+  <br>
+  <div class = "container">
+    <h1 id = "header">Rock and Roll Trivia</h1>
+    <div class='button' id='start'><a href='#'>Start</a></div>
+    <div id="show-number"></div>
+    <div id = "trivia">
+      <form class="quiz">
+        <h1>1. How many #1 singles does Led Zeppelin have?</h1>
+          <ul class = "option" style="margin-top: 1pt">
+            <li><input type="radio" name="q1" value="0">0</li>
+            <li><input type="radio" name="q1" value="1">1</li>
+            <li><input type="radio" name="q1" value="2">2</li>
+            <li><input type="radio" name="q1" value="3">3</li>
+          </ul>
+          <br>
+        <h1>2. Who is not a current member of The Who?</h1>
+          <ul class = "option" style="margin-top: 1pt">
+            <li><input type="radio" name="q2" value="Roger Daltrey">Roger Daltrey</li>
+            <li><input type="radio" name="q2" value="Pete Townsend">Pete Townsend</li>
+            <li><input type="radio" name="q2" value="Zak Starkey">Zak Starkey</li>
+            <li><input type="radio" name="q2" value="Ringo Starr">Ringo Starr</li>
+          </ul>
+          <br>
+        <h1>3. What is Bob Dylan's Real Name?</h1>
+          <ul class = "option" style="margin-top: 1pt">
+            <li><input type="radio" name="q3" value="Bob Dylan">Bob Dylan</li>
+            <li><input type="radio" name="q3" value="Robert Stein">Robert Stein</li>
+            <li><input type="radio" name="q3" value="Robert Zimmerman">Robert Zimmerman</li>
+            <li><input type="radio" name="q3" value="Joe Freese">Joe Freese</li>
+          </ul>
+          <br>
+        <h1>4. Which song was not written by the Rolling Stones?</h1>
+          <ul class = "option" style="margin-top: 1pt">
+            <li><input type="radio" name="q4" value="Jumpin' Jack Flash">Jumpin' Jack Flash</li>
+            <li><input type="radio" name="q4" value="Layla">Layla</li>
+            <li><input type="radio" name="q4" value="Paint it Black">Paint it Black</li>
+            <li><input type="radio" name="q4" value="Angie">Angie</li>
+          </ul>
+          <br>
+        <h1>5. Who is the original drummer in the Beatles?</h1>
+          <ul class = "option" style="margin-top: 1pt">
+            <li><input type="radio" name="q5" value="Pete Best">Pete Best</li>
+            <li><input type="radio" name="q5" value="Keith Moon">Keith Moon</li>
+            <li><input type="radio" name="q5" value="Ringo Starr">Ringo Starr</li>
+            <li><input type="radio" name="q5" value="Charlie Watts">Charlie Watts</li>
+          </ul>
+          <br>
+        <h1>6. What was the original band name of Led Zeppelin?</h1>
+          <ul class = "option" style="margin-top: 1pt">
+            <li><input type="radio" name="q6" value="The Bees">The Bees</li>
+            <li><input type="radio" name="q6" value="The What">The What</li>
+            <li><input type="radio" name="q6" value="The New Yardbirds">The New Yardbirds</li>
+            <li><input type="radio" name="q6" value="The Hills">The Hills</li>
+          </ul>
+          <br>
+        <h1>7. Please complete the lyrics to this Song: "Smoke on the Water..."</h1>
+          <ul class = "option" style="margin-top: 1pt">
+            <li><input type="radio" name="q7" value="A brush on the land">A brush on the land</li>
+            <li><input type="radio" name="q7" value="A dust in the wind">A dust in the wind</li>
+            <li><input type="radio" name="q7" value="A rock and a hard place">A rock and a hard place</li>
+            <li><input type="radio" name="q7" value="A fire in the sky">A fire in the sky</li>
+          </ul>
+          <br>
+        <h1>8. Which is the name of a Billy Joel album?</h1>
+          <ul class = "option" style="margin-top: 1pt">
+            <li><input type="radio" name="q8" value="The Stranger">The Stranger</li>
+            <li><input type="radio" name="q8" value="Caribou">Caribou</li>
+            <li><input type="radio" name="q8" value="Nevermind">Nevermind</li>
+            <li><input type="radio" name="q8" value="Rock On">Rock On</li>
+          </ul>
+          <br>
+        <h1>9. Which band still performs with all of it's original members?</h1>
+          <ul class = "option" style="margin-top: 1pt">
+            <li><input type="radio" name="q9" value="Genesis">Genesis</li>
+            <li><input type="radio" name="q9" value="Aerosmith">Aerosmith</li>
+            <li><input type="radio" name="q9" value="Rolling Stones">Rolling Stones</li>
+            <li><input type="radio" name="q9" value="AC/DC">AC/DC</li>
+          </ul>
+          <br>
+        <h1>10. Which song was the theme for the tv show Wonder Years?</h1>
+          <ul class = "option" style="margin-top: 1pt">
+            <li><input type="radio" name="q10" value="American Pie">American Pie</li>
+            <li><input type="radio" name="q10" value="Imagine">Imagine</li>
+            <li><input type="radio" name="q10" value="With a Little Help From My Friends">With a Little Help From My Friends</li>
+            <li><input type="radio" name="q10" value="Baba O'Riley">Baba O'Riley</li>
+          </ul>
+          <br>
+            <div class='button' id='submit'><a href='#'>Submit</a></div>
+        </form>
+    </div>
+      <div class = "finished">
+        <div id = "score"></div>
+        <div id = "incorrect"></div>
+        <div id = "unanswered"></div>
+      </div>
+      <div class='button' id='reset'><a href='#'>Reset</a></div>
+  </div>
+  </body>
+  </html>
